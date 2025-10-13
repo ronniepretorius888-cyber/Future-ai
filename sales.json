@@ -1,0 +1,9 @@
+{
+  "sales": [],
+  "tokens": [],
+  "marketing": {
+    "weekly": { "enabled": true, "lastSent": 0 },
+    "monthly": { "enabled": true, "lastSent": 0 },
+    "templates": {}
+  }
+}
