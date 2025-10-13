@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Future-AI Dashboard</title>
+  <style>
+    body { font-family: Poppins, sans-serif; text-align: center; background: #0b0f19; color: #fff; }
+    h1 { color: #00ffae; margin-top: 60px; }
+    p { color: #ccc; }
+    .logo { font-size: 40px; color: gold; }
+  </style>
+</head>
+<body>
+  <div class="logo">⚡ Future-AI</div>
+  <h1>Welcome to Ronnie Pretorius' Smart Dashboard</h1>
+  <p>Your AI business command center is live and ready to evolve.</p>
+  <script>
+    fetch('/api')
+      .then(res => res.json())
+      .then(data => console.log(data.message));
+  </script>
+</body>
+</html>
