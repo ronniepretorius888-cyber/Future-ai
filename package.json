@@ -1,7 +1,6 @@
 {
   "name": "future-ai",
   "version": "1.0.0",
-  "description": "Future-AI by Ronnie Pretorius — AI-powered dashboard and business tools",
   "main": "server.js",
   "type": "module",
   "scripts": {
